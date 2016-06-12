@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/root">
+
+	<RadioGroup
+		android:id="@+id/dirSwitch"
+		style="@style/RadioSwitch">
+
+		<RadioButton
+			style="@style/switch_radio"
+			android:text="@string/a_z"
+			android:checked="true"
+			android:id="@+id/a_z"/>
+
+		<RadioButton
+			style="@style/switch_radio"
+			android:text="@string/z_a"
+			android:id="@+id/z_a"/>
+
+	</RadioGroup>
+
+	<LinearLayout
+		style="@style/input">
+
+		<TextView
+			style="@style/input_text"
+			android:text="@string/home"/>
+
+		<EditText
+			style="@style/input_edit"
+			android:id="@+id/input_start"
+			android:inputType="numberDecimal"
+			android:text="0"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		style="@style/input">
+
+		<TextView
+			style="@style/input_text"
+			android:text="@string/end"/>
+
+		<EditText
+			style="@style/input_edit"
+			android:id="@+id/input_end"
+			android:inputType="numberDecimal"
+			android:text="0"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		style="@style/input">
+
+		<TextView
+			style="@style/input_text"
+			android:text="@string/replace"/>
+
+		<EditText
+			style="@style/input_edit"
+			android:id="@+id/input_replacement"
+			android:hint="@string/defaultDel"/>
+
+	</LinearLayout>
+
+	<include
+		layout="@layout/batch_rename_frame"/>
+
+</LinearLayout>
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/dialog_root"
+	android:background="?shape_bg">
+
+	<LinearLayout
+		style="@style/bar">
+
+		<TextView
+			style="@style/line_item"
+			android:id="@+id/gameName"
+			android:textSize="20sp"/>
+
+		<TextView
+			style="@style/wrap"
+			android:id="@+id/gameType"
+			android:padding="5dp"
+			android:textSize="16sp"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/gameSize"
+		style="@style/fill"/>
+
+</LinearLayout>
+

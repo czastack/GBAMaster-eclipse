@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<resources>
+	<color name="white">#FFFFFF</color>
+	
+	<color name="pressed_day">#7DCDE9</color>
+	<color name="pressed_night">#2F7D99</color>
+	
+	<color name="window_bg">#ECF0F1</color>
+	<color name="highlight">#0099CC</color>
+	<color name="silver">#E0E0E0</color>
+	<color name="frame">#D0D0D0</color>
+	<color name="grayer">#666666</color>
+    <color name="bar_dark">#cc000000</color>
+    
+    <color name="img_day_bg_border">@color/border_day</color>
+    <color name="img_night_bg_border">@color/border_night</color>
+    
+    <!-- text -->
+    <color name="batch_rename_dir">#FF9329</color>
+    
+    <color name="gray">#CCCCCC</color>
+    
+    <!-- background -->
+    <color name="under_color_night">#242A2F</color>
+    
+    <!-- border -->
+    <color name="border_day">#CFD7DD</color>
+    <color name="border_night">#404347</color>
+</resources>

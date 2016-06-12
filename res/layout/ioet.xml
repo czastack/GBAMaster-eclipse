@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/root">
+
+	<LinearLayout
+		style="@style/vertical_item"
+		android:orientation="vertical">
+
+		<LinearLayout
+			style="@style/bar">
+
+			<Button
+				style="@style/line_item_center"
+				android:text="@string/clear"
+				android:id="@+id/btn_clear"/>
+
+			<Button
+				style="@style/line_item_center"
+				android:text="@string/paste"
+				android:id="@+id/btn_paste"/>
+
+			<Button
+				style="@style/line_item_center"
+				android:text="go"
+				android:id="@+id/btn_go"/>
+
+		</LinearLayout>
+
+		<EditText
+			style="@style/multiLine"
+			android:id="@+id/iet"
+			android:hint="@string/input"
+			android:minLines="8"
+			android:maxLines="16"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		style="@style/vertical_item"
+		android:orientation="vertical">
+
+		<LinearLayout
+			style="@style/bar">
+
+			<Button
+				style="@style/line_item_center"
+				android:text="@string/copy"
+				android:id="@+id/btn_copy"/>
+
+			<Button
+				style="@style/line_item_center"
+				android:text="↑"
+				android:id="@+id/btn_toUp"/>
+
+		</LinearLayout>
+
+		<EditText
+			style="@style/multiLine"
+			android:id="@+id/oet"
+			android:hint="@string/output"
+			android:minLines="8"
+			android:maxLines="16"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

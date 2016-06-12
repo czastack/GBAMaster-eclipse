@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/verticalBar">
+
+	<LinearLayout
+		style="@style/bar">
+
+		<TextView
+			style="@style/buttonStyle"
+			android:text="-"
+			android:id="@+id/btn_addr_down"/>
+	
+		<EditText
+			style="@style/line_item"
+			android:id="@+id/codeView"
+			android:hint="@string/address"
+			android:textColor="@color/white"
+			android:ems="10"/>
+	
+		<TextView
+			style="@style/buttonStyle"
+			android:text="+"
+			android:id="@+id/btn_addr_up"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		style="@style/bar">
+	
+		<TextView
+			style="@style/buttonStyle"
+			android:text="-"
+			android:id="@+id/btn_code_down"/>
+	
+		<EditText
+			style="@style/line_item"
+			android:id="@+id/valueView"
+			android:hint="@string/value"
+			android:textColor="@color/white"
+			android:ems="10"/>
+	
+		<TextView
+			style="@style/buttonStyle"
+			android:text="+"
+			android:id="@+id/btn_code_up"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		style="@style/bar"
+		android:id="@+id/extBar">
+	
+	   <ImageView
+				style="@style/transparentButtonStyle"
+				android:src="@android:drawable/ic_menu_close_clear_cancel"
+				android:id="@+id/btn_clear"/>
+	
+		<EditText
+			style="@style/line_item"
+			android:id="@+id/nameView"
+			android:hint="@string/name"
+			android:textColor="@color/white"/>
+	
+		<ImageButton
+			style="@style/transparentButtonStyle"
+			android:src="@android:drawable/ic_menu_mylocation"
+			android:id="@+id/btn_reposition"/>
+		
+
+	</LinearLayout>
+
+
+	<RadioGroup
+		style="@style/input"
+		android:id="@+id/sizeView">
+	
+		<ImageView
+			style="@style/transparentButtonStyle"
+			android:src="@android:drawable/ic_menu_delete"
+			android:id="@+id/btn_close"/>
+
+		<RadioButton
+			style="@style/input_edit"
+			android:id="@+id/u8"
+			android:text="@string/u8"
+			android:checked="true"/>
+
+		<RadioButton
+			style="@style/input_edit"
+			android:id="@+id/u16"
+			android:text="@string/u16"/>
+
+		<RadioButton
+			style="@style/input_edit"
+			android:id="@+id/u32"
+			android:text="@string/u32"/>
+	
+		<ImageView
+			style="@style/transparentButtonStyle"
+			android:src="@android:drawable/ic_menu_send"
+			android:id="@+id/btn_output"/>
+
+	</RadioGroup>
+
+	<RadioGroup
+		style="@style/input"
+		android:id="@+id/modeView">
+
+		<RadioButton
+			style="@style/input_edit"
+			android:id="@+id/option_read"
+			android:text="@string/read"
+			android:checked="true"/>
+
+		<RadioButton
+			style="@style/input_edit"
+			android:id="@+id/option_write"
+			android:text="@string/write"/>
+		
+		<CheckBox
+			style="@style/input_edit"
+			android:id="@+id/option_autoRestore"
+			android:text="@string/autoRestore"
+			android:checked="true"/>
+
+	</RadioGroup>
+
+</LinearLayout>
+

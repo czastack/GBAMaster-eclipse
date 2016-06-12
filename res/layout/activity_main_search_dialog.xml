@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/dialog_root">
+
+	<CheckBox
+		style="@style/fill"
+		android:text="@string/keepOrder"
+		android:checked="true"
+		android:id="@+id/keepOrderView"/>
+
+	<LinearLayout
+		style="@style/input"
+		android:orientation="vertical">
+
+		<TextView
+			style="@style/input_text"
+			android:text="@string/searchLevel"/>
+
+		<EditText
+			style="@style/input_edit"
+			android:id="@+id/searchLevelView"
+			android:inputType="number"
+			android:text="3"/>
+
+	</LinearLayout>
+
+	<TextView
+		style="@style/fill"
+		android:id="@+id/searchCountView"
+		android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+</LinearLayout>
+

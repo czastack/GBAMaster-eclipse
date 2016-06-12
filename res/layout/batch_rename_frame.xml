@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<LinearLayout
+		style="@style/input">
+
+		<TextView
+			style="@style/input_text"
+			android:text="@string/changeType"/>
+
+		<EditText
+			style="@style/input_edit"
+			android:hint="@string/useDefault"
+			android:id="@+id/input_type"/>
+
+	</LinearLayout>
+
+	<CheckBox
+		style="@style/fill"
+		android:text="@string/R"
+		android:id="@+id/ableR"/>
+
+	<TextView
+		style="@style/fill"
+		android:text="@string/aboutR"
+		android:id="@+id/aboutR"
+		android:visibility="gone"/>
+
+</merge>
+

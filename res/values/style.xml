@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="day" parent="@android:style/Theme.Holo.Light">	
+        <item name="android:windowBackground">@color/window_bg</item>
+		<item name="android:buttonBarButtonStyle">@style/dark_barBtn</item>
+		<item name="inputStyle">@style/input</item>
+		<item name="clickableBar">@style/clickableBar</item>
+		<item name="pressed">@drawable/pressed_day</item>
+		<item name="switch_radio_bg">@drawable/switch_radio_day</item>
+		<item name="radio_switch_bg">@android:color/darker_gray</item>
+		<item name="imgStyle">@style/img.day</item>
+		<item name="shape_bg">@drawable/shape_bg_day</item>
+	</style>
+
+    <style name="night" parent="@android:style/Theme.Holo">
+		<item name="android:buttonBarButtonStyle">@style/dark_barBtn</item>
+		<item name="inputStyle">@style/input</item>
+		<item name="clickableBar">@style/clickableBar</item>
+		<item name="pressed">@drawable/pressed_night</item>
+		<item name="switch_radio_bg">@drawable/switch_radio_night</item>
+		<item name="radio_switch_bg">@color/under_color_night</item>
+		<item name="imgStyle">@style/img.night</item>
+		<item name="shape_bg">@drawable/shape_bg_night</item>
+	</style>
+
+	<style name="emulatorTheme">
+		<item name="android:windowActionBarOverlay">true</item>
+		<item name="android:actionBarStyle">@style/emulatorActionBar</item>
+	</style>
+
+	<style name="emulatorActionBar" parent="@android:style/Widget.Holo.ActionBar">
+		<item name="android:background">@color/bar_dark</item>
+	</style>
+
+	<style name="line_item" parent="fill">
+		<item name="android:layout_weight">1.0</item>
+    </style>
+
+	<style name="line_item_center" parent="line_item">
+		<item name="android:gravity">center</item>
+    </style>
+
+	<style name="switch_radio" parent="line_item_center">
+		<item name="android:textSize">18sp</item>
+		<item name="android:button">@null</item>
+		<item name="android:background">?switch_radio_bg</item>
+		<item name="android:padding">5dp</item>
+    </style>
+
+	<style name="state" parent="line_item_center">
+		<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+	<style name="multiLine" parent="full">
+		<item name="android:inputType">textMultiLine</item>
+		<item name="android:gravity">top</item>
+		<item name="android:scrollbars">vertical</item>
+    </style>
+
+	<style name="wrap">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="fill">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="full">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">fill_parent</item>
+	</style>
+	
+	<style name="vertical_item">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">0dp</item>
+		<item name="android:layout_weight">1.0</item>
+	</style>
+	
+	<style name="list_item" parent="wrap">
+		<item name="android:clickable">false</item>
+		<item name="android:focusable">false</item>
+		<item name="android:focusableInTouchMode">false</item>
+	</style>
+	
+	<style name="bar" parent="fill">
+		<item name="android:orientation">horizontal</item>
+		<item name="android:gravity">center_vertical</item>
+	</style>
+
+	<style name="verticalBar" parent="fill">
+		<item name="android:orientation">vertical</item>
+	</style>
+
+	<style name="clickableBar" parent="verticalBar">
+		<item name="android:background">?android:selectableItemBackground</item>
+	</style>
+
+	<style name="root" parent="full">
+		<item name="android:orientation">vertical</item>
+	</style>
+
+	<style name="dialog_root" parent="root">
+		<item name="android:padding">10dp</item>
+	</style>
+
+	<style name="selectStyle" parent="fill">
+		<item name="android:orientation">vertical</item>
+		<item name="android:gravity">center_vertical</item>
+	</style>
+	
+	<style name="RadioSwitch" parent="bar">
+		<item name="android:background">?radio_switch_bg</item>
+    </style>
+	
+	<style name="input" parent="bar">
+		<item name="android:layout_margin">5dp</item>
+    </style>
+
+	<style name="input_text" parent="wrap">
+		<item name="android:layout_marginRight">5dp</item>
+		<item name="android:textSize">18sp</item>
+    </style>
+	
+	<style name="input_edit" parent="line_item">
+		<item name="android:singleLine">true</item>
+    </style>
+    
+	<style name="read_only_edit" parent="input_edit">
+		<item name="android:inputType">none</item>
+		<item name="android:textIsSelectable">true</item>
+		<item name="android:textColor">@color/grayer</item>
+    </style>
+	
+	<style name="marquee" parent="focusable">
+		<item name="android:ellipsize">marquee</item>
+		<item name="android:singleLine">true</item>
+	</style>
+
+	<style name="list" parent="full">
+		<item name="android:fastScrollEnabled">true</item>
+		<item name="android:layout_weight">1.0</item>
+	</style>
+
+	<!--按钮-->
+    <style name="buttonStyle" parent="@android:style/Widget.DeviceDefault.Button.Small">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+    </style>
+	
+    <style name="transparentButtonStyle" parent="@style/wrap">
+		<item name="android:background">?android:attr/selectableItemBackground</item>
+		<item name="android:padding">8dp</item>
+    </style>
+
+    <style name="dark_barBtn" parent="wrap">
+		<item name="android:textSize">17sp</item>
+		<item name="android:padding">5dp</item>
+		<item name="android:gravity">center</item>
+		<item name="android:background">@drawable/dark_barbtn_bg</item>
+    </style>
+
+    <style name="title" parent="fill">
+		<item name="android:textSize">22sp</item>
+		<item name="android:textColor">#5E7B8A</item>
+		<item name="android:paddingLeft">10dp</item>
+		<item name="android:textAppearance">?android:attr/listSeparatorTextViewStyle</item>
+    </style>
+
+	<style name="hr">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">1dp</item>
+		<item name="android:background">@color/frame</item>
+	</style>
+
+	<style name="title_hr">
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">2dp</item>
+		<item name="android:layout_marginBottom">5dp</item>
+		<item name="android:background">#C0C0C0</item>
+	</style>
+
+	
+	<style name="img" parent="wrap">
+		<item name="android:padding">10dp</item>
+		<item name="android:adjustViewBounds">true</item>
+	</style>
+
+	<style name="img.day">
+		<item name="android:background">@drawable/img_day_bg</item>
+	</style>
+
+	<style name="img.night">
+		<item name="android:background">@drawable/img_night_bg</item>
+	</style>
+
+	
+	<style name="focusable">
+		<item name="android:focusable">true</item>
+		<item name="android:focusableInTouchMode">true</item>
+		<item name="android:layout_height">wrap_content</item>
+	</style>
+
+	<style name="MySearchView" parent="wrap">
+		<item name="android:layout_height">38dp</item>
+		<item name="android:maxWidth">150dp</item>
+	</style>
+	
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/bar"
+	android:paddingLeft="10dp"
+	android:paddingRight="10dp">
+
+	<EditText
+		style="@style/line_item"
+		android:hint="插入位置"
+		android:id="@+id/input_index"
+		android:singleLine="true"
+		android:inputType="number"/>
+
+	<Button
+		style="@style/buttonStyle"
+		android:text="@string/home"
+		android:id="@+id/top"/>
+
+	<Button
+		style="@style/buttonStyle"
+		android:text="@string/end"
+		android:id="@+id/bottom"/>
+
+</LinearLayout>
+

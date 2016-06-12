@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/dialog_root">
+
+	<LinearLayout
+		style="@style/bar">
+
+		<TextView
+			android:id="@+id/cht_name"
+			style="@style/line_item"
+			android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+		<TextView
+			android:id="@+id/cht_size"
+			style="@style/wrap"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/cht_time"
+		style="@style/fill"/>
+
+</LinearLayout>
+

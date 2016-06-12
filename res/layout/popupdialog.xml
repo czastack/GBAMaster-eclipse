@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/root">
+	
+    <LinearLayout
+		style="@style/bar">
+	
+	    <TextView
+			style="@style/title"
+			android:id="@+id/title"
+			android:layout_weight="1.0" />
+
+	    <ImageButton
+			style="@style/transparentButtonStyle"
+	        android:id="@+id/btn_cancel"
+	        android:contentDescription="@string/cancel"
+	        android:src="@drawable/popupdialog_btn_cancel" />
+	    
+	    <ImageButton
+			style="@style/transparentButtonStyle"
+	        android:id="@+id/btn_ok"
+	        android:contentDescription="@string/cancel"
+	        android:src="@drawable/popupdialog_btn_ok" />
+	
+	</LinearLayout>
+    
+    <View 
+		style="@style/title_hr"/>
+    
+    <LinearLayout
+		style="@style/root"
+		android:id="@+id/container"
+		android:layout_weight="1.0"/>
+    
+</LinearLayout>

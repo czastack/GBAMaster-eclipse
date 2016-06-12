@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/bar"
+	android:paddingLeft="10dp">
+
+	<LinearLayout
+		style="@style/line_item"
+		android:orientation="vertical">
+
+		<TextView
+			style="@style/fill"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/originalView"/>
+
+		<TextView
+			style="@style/fill"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/currentView"
+			android:textColor="@color/highlight"/>
+
+	</LinearLayout>
+
+	<TextView
+		style="@style/wrap"
+		android:padding="5dp"
+		android:id="@+id/stateView"/>
+
+</LinearLayout>
+

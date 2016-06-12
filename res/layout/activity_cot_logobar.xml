@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/dialog_root">
+
+	<ImageView
+		style="?imgStyle"
+		android:id="@+id/ss0Img"
+		android:layout_height="160dp"
+		android:layout_width="240dp"/>
+
+	<LinearLayout
+		style="@style/selectStyle"
+		android:layout_marginLeft="10dp"
+		android:layout_marginTop="10dp">
+
+		<TextView
+			android:id="@+id/gameName"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			style="@style/marquee"/>
+
+		<TextView
+			style="@style/wrap"
+			android:id="@+id/author"/>
+
+		<TextView
+			style="@style/wrap"
+			android:maxEms="11"
+			android:text="@string/cotHint"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

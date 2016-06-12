@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/root">
+
+	<LinearLayout
+		style="@style/bar">
+
+		<Button
+			style="@style/line_item"
+			android:text="@string/browser"
+			android:id="@+id/btn_addFile"/>
+
+		<Button
+			style="@style/line_item"
+			android:text="@string/compress"
+			android:id="@+id/btn_compress"/>
+
+		<Button
+			style="@style/line_item"
+			android:text="@string/browserResult"
+			android:id="@+id/btn_browserResult"/>
+
+	</LinearLayout>
+
+	<TextView
+		style="@style/fill"
+		android:id="@+id/compress_state"
+		android:paddingLeft="10dp"/>
+
+	<LinearLayout
+		style="@style/verticalBar"
+		android:id="@+id/progressArea"
+		android:visibility="gone">
+
+		<TextView
+			style="@style/wrap"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:id="@+id/text_progress"
+			android:layout_gravity="center"/>
+
+		<ProgressBar
+			style="?android:attr/progressBarStyleHorizontal"
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent"
+			android:id="@+id/progressBar"/>
+
+	</LinearLayout>
+
+	<ListView
+		style="@style/list"
+		android:id="@+id/list"/>
+
+</LinearLayout>
+

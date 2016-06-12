@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/dialog_root" >
+ 	<LinearLayout
+		style="@style/input">
+
+		<TextView
+			style="@style/input_text"
+			android:text="@string/text"/>
+
+		<EditText
+			style="@style/input_edit"
+			android:id="@+id/text"/>
+
+	</LinearLayout>
+	
+ 	<LinearLayout
+		style="@style/input">
+
+		<TextView
+			style="@style/input_text"
+			android:text="@string/delay"/>
+
+		<EditText
+			style="@style/input_edit"
+			android:id="@+id/delay"
+			android:inputType="number"
+			android:hint="@string/ms"/>
+
+	</LinearLayout>
+	
+ 	<LinearLayout
+			style="@style/bar">
+
+		<Button
+			style="@style/line_item_center"
+			android:text="@string/deleteEvent"
+			android:id="@+id/btn_deleteEvent"/>
+
+		<Button
+			style="@style/line_item_center"
+			android:text="@string/addDelay"
+			android:id="@+id/btn_addDelay"/>
+
+		<Button
+			style="@style/line_item_center"
+			android:text="@string/addKey"
+			android:id="@+id/btn_addKey"/>
+
+	</LinearLayout>
+
+	<ListView
+		style="@style/list"
+		android:id="@+id/list"/>
+
+</LinearLayout>

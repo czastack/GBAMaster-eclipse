@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--主界面-->
+	<string-array name="menu_game">
+		<item>@string/renameAllFiles</item>
+		<item>@string/removeFromList</item>
+		<item>@string/changePosition</item>
+	</string-array>
+	
+	<string-array name="scaling_mode_entries">
+		<item>拉伸到全屏</item>
+		<item>按比例放大</item>
+		<item>2倍放大</item>
+		<item>原始大小</item>
+	</string-array>
+	<string-array name="scaling_mode_entryvalues">
+		<item>stretch</item>
+		<item>proportional</item>
+		<item>2x</item>
+		<item>original</item>
+	</string-array>
+
+	<string-array name="vkeypad_size_entries">
+		<item>大</item>
+		<item>中</item>
+		<item>小</item>
+	</string-array>
+	<string-array name="vkeypad_size_entryvalues">
+		<item>large</item>
+		<item>medium</item>
+		<item>small</item>
+	</string-array>
+
+	<string-array name="orientation_entries">
+		<item>未设置</item>
+		<item>总是横屏</item>
+		<item>总是竖屏</item>
+	</string-array>
+	<string-array name="orientation_entryvalues">
+		<item>unspecified</item>
+		<item>landscape</item>
+		<item>portrait</item>
+	</string-array>
+
+	<string-array name="fast_forward_speed">
+		<item>0.5x</item>
+		<item>1.5x</item>
+		<item>2x</item>
+		<item>3x</item>
+		<item>4x</item>
+		<item>8x</item>
+	</string-array>
+
+	<string-array name="position">
+		<item>@string/end</item>
+		<item>@string/home</item>
+	</string-array>
+
+	<string-array name="fix">
+		<item>@string/prefix</item>
+		<item>@string/suffix</item>
+	</string-array>
+
+	<string-array name="outputCheatAs">
+		<item>纯文本</item>
+		<item>GameBoid的cht字符串</item>
+		<item>MyBoy的cht字符串</item>
+	</string-array>
+	
+	<string-array name="menu_cht">
+		<item>@string/edit</item>
+		<item>@string/openDir</item>
+		<item>@string/delete</item>
+	</string-array>
+
+	<string-array name="menu_file">
+		<item>@string/rename</item>
+		<item>@string/move</item>
+		<item>@string/copy</item>
+		<item>@string/copyDir</item>
+		<item>@string/share</item>
+		<item>@string/delete</item>
+	</string-array>
+
+	<string-array name="menu_cheat">
+		<item>@string/edit</item>
+		<item>@string/move</item>
+		<item>@string/delete</item>
+	</string-array>
+	
+	<string-array name="menu_quiteGame">
+		<item>返回游戏</item>
+		<item>存储并关闭</item>
+		<item>关闭</item>
+	</string-array>
+	
+	<string-array name="menu_key_trigger">
+		<item>@string/config</item>
+		<item>@string/move</item>
+		<item>@string/remove</item>
+	</string-array>
+	
+	<string-array name="STEditDialog_btnText">
+		<item>@string/top</item>
+		<item>@string/bottom</item>
+		<item>@string/a_z</item>
+		<item>@string/z_a</item>
+	</string-array>
+
+	<string-array name="codeType">
+		<item>@string/codebreaker</item>
+		<item>@string/gameshark_v1</item>
+		<item>@string/ar_v3</item>
+	</string-array>
+
+	<string-array name="type_cb">
+		<item>@string/ram_write_8bit</item>
+		<item>@string/ram_write_16bit</item>
+		<item>@string/slide_16bit</item>
+		<item>@string/cb_or</item>
+		<item>@string/cb_and</item>
+		<item>@string/if_true_16bit</item>
+		<item>@string/if_false_16bit</item>
+		<item>@string/cb_lt</item>
+		<item>@string/cb_gt</item>
+		<item>@string/cb_if_key</item>
+		<item>@string/cb_add</item>
+	</string-array>
+
+	<string-array name="type_v1">
+		<item>@string/ram_write_8bit</item>
+		<item>@string/ram_write_16bit</item>
+		<item>@string/ram_write_32bit</item>
+		<item>@string/rom_patch</item>
+		<item>@string/gs_write_8bit</item>
+		<item>@string/gs_write_16bit</item>
+		<item>@string/gs_write_32bit</item>
+		<item>@string/if_true_16bit</item>
+	</string-array>
+
+	<string-array name="type_v3">
+		<item>@string/v3_fill_8bit</item>
+		<item>@string/v3_fill_16bit</item>
+		<item>@string/ram_write_32bit</item>
+		<item>@string/if_true_8bit</item>
+		<item>@string/if_true_16bit</item>
+		<item>@string/if_true_32bit</item>
+		<item>@string/if_false_8bit</item>
+		<item>@string/if_false_16bit</item>
+		<item>@string/if_false_32bit</item>
+		<item>@string/if_true2_8bit</item>
+		<item>@string/if_true2_16bit</item>
+		<item>@string/if_true2_32bit</item>
+		<item>@string/if_false2_8bit</item>
+		<item>@string/if_false2_16bit</item>
+		<item>@string/if_false2_32bit</item>
+		<item>@string/gs_write_8bit</item>
+		<item>@string/gs_write_16bit</item>
+		<item>@string/gs_write_32bit</item>
+		<item>@string/rom_patch</item>
+		<item>@string/slide_8bit</item>
+		<item>@string/slide_16bit</item>
+		<item>@string/slide_32bit</item>
+	</string-array>
+	
+</resources>

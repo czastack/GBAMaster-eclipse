@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item 
+		android:id="@+id/menu_ls" 
+		android:title="输出列表" />
+
+	<item 
+		android:id="@+id/menu_batchRename" 
+		android:title="批量命名" />
+
+	<item 
+		android:id="@+id/menu_undoRename" 
+		android:title="撤销命名" />
+
+	<item 
+		android:id="@+id/menu_createShortcut" 
+		android:title="@string/shortcut" />
+
+	<item 
+		android:id="@+id/menu_newFile" 
+		android:title="新建"
+		android:icon="@android:drawable/ic_menu_add"
+		android:showAsAction="ifRoom" />
+
+	<item 
+		android:id="@+id/menu_screen" 
+		android:title="筛选"
+		android:icon="@android:drawable/ic_menu_search"
+		android:showAsAction="ifRoom" />
+
+	<item 
+		android:id="@+id/menu_refresh" 
+		android:title="刷新"
+		android:icon="@android:drawable/ic_popup_sync"
+		android:showAsAction="ifRoom" />
+</menu>

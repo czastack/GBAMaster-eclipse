@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_selectOn"
+        android:title="同步"
+		android:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/menu_checkInverse"
+        android:title="@string/checkInverse"
+		android:showAsAction="ifRoom|withText"/>
+	
+    <item
+        android:id="@+id/menu_turnOnSelected"
+        android:title="开启"
+		android:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/menu_turnOffSelected"
+        android:title="关闭"
+		android:showAsAction="ifRoom|withText"/>
+	
+	<item
+		android:id="@+id/menu_delete"
+		android:title="@string/delete"
+		android:icon="@android:drawable/ic_menu_delete"
+		android:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_output"
+        android:title="@string/output"
+		android:icon="@android:drawable/ic_menu_send"
+		android:showAsAction="always"/>
+</menu>

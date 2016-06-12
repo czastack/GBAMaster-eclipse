@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/root">
+
+	<CheckBox
+		android:id="@+id/option_splitGroup"
+		style="@style/fill"
+		android:text="@string/splitGroup"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:checked="true"/>
+
+	<EditText
+		style="@style/fill"
+		android:hint="@string/find"
+		android:id="@+id/input_find"/>
+
+	<EditText
+		style="@style/fill"
+		android:hint="@string/replace"
+		android:id="@+id/input_replacement"/>
+
+</LinearLayout>
+

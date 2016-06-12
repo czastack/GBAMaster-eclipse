@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:androidemu="http://androidemu.com/apk/res/android" >
+    
+		<PreferenceCategory
+			android:title="声音">
+
+			<CheckBoxPreference
+				android:title="打开声音"
+				android:key="soundEnabled"
+				android:defaultValue="true"/>
+
+			<cza.preference.SeekBarPreference
+				android:title="音量"
+				android:key="soundVolume"
+				android:dependency="soundEnabled"
+				android:defaultValue="100"/>
+		</PreferenceCategory>
+
+		<PreferenceCategory
+			android:title="显示">
+			<ListPreference
+				android:entries="@array/scaling_mode_entries"
+				android:title="缩放模式"
+				android:key="scalingMode"
+				android:defaultValue="proportional"
+				android:entryValues="@array/scaling_mode_entryvalues"/>
+
+			<ListPreference
+				android:entries="@array/fast_forward_speed"
+				android:title="游戏快进速度"
+				android:key="fastForwardSpeed"
+				android:defaultValue="2x"
+				android:entryValues="@array/fast_forward_speed"/>
+			<ListPreference
+				android:entries="@array/orientation_entries"
+				android:title="屏幕方向"
+				android:key="orientation"
+				android:summary="设置游戏屏幕的方向"
+				android:defaultValue="unspecified"
+				android:entryValues="@array/orientation_entryvalues"/>
+
+			<CheckBoxPreference
+				android:title="全屏模式"
+				android:key="fullScreenMode"
+				android:summary="隐藏系统状态条"
+				android:defaultValue="true"/>
+		</PreferenceCategory>
+
+		<PreferenceCategory
+			android:title="输入">
+
+			<CheckBoxPreference
+				android:title="显示虚拟键盘"
+				android:key="enableVKeypad"
+				android:defaultValue="true"/>
+
+			<PreferenceScreen
+				android:title="虚拟键盘设置"
+				android:summary="设置屏幕上的虚拟键盘"
+				android:dependency="enableVKeypad">
+
+				<cza.preference.SeekBarPreference
+					android:title="按键有效区域外延"
+					android:key="hitOut"
+					android:defaultValue="50"
+					androidemu:maxValue="100"/>
+
+				<cza.preference.SeekBarPreference
+					android:title="方向键敏感区"
+					android:key="dpadDeadZone"
+					android:defaultValue="2"
+					androidemu:maxValue="4"/>
+
+				<PreferenceCategory
+					android:title="模拟同时两个按键">
+
+					<CheckBoxPreference
+						android:title="点击两个按钮中间"
+						android:key="inBetweenPress"
+						android:summary="您可以按下两个按钮中间的区域来模拟这两个按钮同时按下"/>
+
+					<CheckBoxPreference
+						android:title="触摸区域大小"
+						android:key="pointSizePress"
+						android:summary="通过衡量触摸区域的大小来判断时候两个按钮同时按下（不是每个设备都适用）"/>
+
+					<cza.preference.SeekBarPreference
+						android:title="触摸区域阈值"
+						android:key="pointSizePressThreshold"
+						android:dependency="pointSizePress"
+						android:defaultValue="7"
+						androidemu:maxValue="10"/>
+
+				</PreferenceCategory>
+
+				<PreferenceCategory
+					android:title="外形">
+
+					<ListPreference
+						android:entries="@array/vkeypad_size_entries"
+						android:title="控件大小"
+						android:key="vkeypadSize"
+						android:defaultValue="medium"
+						android:entryValues="@array/vkeypad_size_entryvalues"/>
+
+					<CheckBoxPreference
+						android:title="禁止A/B连发键"
+						android:key="disableAB_TURBO"
+						android:defaultValue="false"/>
+
+				</PreferenceCategory>
+
+				<cza.preference.SeekBarPreference
+					android:title="距离屏幕边界的距离"
+					android:key="layoutMargin"
+					android:defaultValue="2"
+					androidemu:maxValue="5"/>
+
+			</PreferenceScreen>
+
+			<PreferenceScreen
+				android:title="按键映射"
+				android:key="keyMappings"
+				android:summary="把游戏按键映射到手机上的硬件按钮">
+
+				<PreferenceCategory
+					android:title="配置文件">
+
+					<PreferenceScreen
+						android:title="加载"
+						android:key="loadKeyProfile"/>
+
+					<PreferenceScreen
+						android:title="保存"
+						android:key="saveKeyProfile"/>
+
+				</PreferenceCategory>
+
+				<PreferenceCategory
+					android:title="设置按键"
+					android:key="gamepad"/>
+
+			</PreferenceScreen>
+			
+			<PreferenceScreen
+				android:title="快捷键">
+
+				<cza.preference.KeyPreference
+					android:title="快速加载"
+					android:key="quickLoad"/>
+
+				<cza.preference.KeyPreference
+					android:title="快速存储"
+					android:key="quickSave"/>
+
+				<cza.preference.KeyPreference
+					android:title="变速"
+					android:key="fastForward"/>
+
+				<cza.preference.KeyPreference
+					android:title="屏幕截图"
+					android:key="screenshot"/>
+
+			</PreferenceScreen>
+
+		</PreferenceCategory>
+</PreferenceScreen>

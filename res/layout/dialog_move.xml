@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/bar">
+
+	<TextView
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/top"
+		android:text="↑"/>
+
+	<TextView
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/btn_down"
+		android:text="-"/>
+
+	<EditText
+		style="@style/line_item_center"
+		android:id="@+id/iet"/>
+
+	<TextView
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/btn_up"
+		android:text="+"/>
+
+	<TextView
+		style="?android:attr/buttonStyleSmall"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/bottom"
+		android:text="↓"/>
+
+</LinearLayout>
+

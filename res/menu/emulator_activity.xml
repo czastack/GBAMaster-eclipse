@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:id="@+id/menu_runGame"
+		android:title="@string/runGame"
+        android:showAsAction="ifRoom"
+		android:icon="@android:drawable/ic_media_play"/>
+
+	<item
+		android:id="@+id/menu_testGame"
+		android:title="@string/testGame"
+        android:showAsAction="ifRoom"
+		android:icon="@android:drawable/ic_menu_view"/>
+
+	<item
+		android:id="@+id/menu_setSav"
+		android:title="@string/setSav"/>
+
+	<item
+		android:id="@+id/menu_setST"
+		android:title="@string/setST"/>
+
+	<item
+		android:id="@+id/menu_importCht"
+		android:title="@string/importCht"/>
+
+	<item
+		android:id="@+id/menu_openDir"
+		android:title="@string/openPath"/>
+
+    <item
+		android:id="@+id/menu_edit"
+        android:title="@string/relativeFilesEdit"/>
+
+	<item
+		android:id="@+id/menu_romInfo"
+		android:title="@string/romInfo"/>
+
+	<item
+		android:id="@+id/menu_shortcut"
+		android:title="@string/createShortcut"/>
+    
+</menu>

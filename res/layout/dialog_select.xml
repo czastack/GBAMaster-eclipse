@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/verticalBar" >
+
+    <HorizontalScrollView style="@style/fill" >
+
+        <cza.widget.BtnBar
+            android:id="@+id/btnBar"
+            style="?android:attr/buttonBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <SearchView
+                android:id="@+id/searchView"
+                style="@style/MySearchView" />
+
+            <LinearLayout
+                android:id="@+id/mulChkBar"
+                style="@style/wrap"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/mulChkState"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/btn_clear"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/clear" />
+
+                <TextView
+                    android:id="@+id/btn_toTop"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/top" />
+
+                <TextView
+                    android:id="@+id/btn_toBottom"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bottom" />
+            </LinearLayout>
+        </cza.widget.BtnBar>
+    </HorizontalScrollView>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/dividerVertical" />
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/dialog_root">
+
+	<LinearLayout
+		style="@style/input">
+
+		<TextView
+			style="@style/input_text"
+			android:text="@string/name"/>
+
+		<EditText
+			style="@style/read_only_edit"
+			android:id="@+id/nameView"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		style="@style/input">
+
+		<TextView
+			style="@style/input_text"
+			android:text="@string/code"/>
+
+		<EditText
+			style="@style/read_only_edit"
+			android:id="@+id/codeView"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		style="@style/input">
+
+		<TextView
+			style="@style/input_text"
+			android:text="@string/maker"/>
+
+		<EditText
+			style="@style/read_only_edit"
+			android:id="@+id/makerView"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

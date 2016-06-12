@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/root">
+
+	<LinearLayout
+		style="@style/bar">
+
+		<SearchView
+			style="@style/MySearchView"
+			android:id="@+id/searchView"/>
+
+		<TextView
+			style="@style/state"
+			android:id="@+id/mulChkState"/>
+
+		<TextView
+			style="?android:attr/buttonBarButtonStyle"
+			android:id="@+id/checkAll"
+			android:text="@string/checkAll"/>
+
+		<TextView
+			style="?android:attr/buttonBarButtonStyle"
+			android:id="@+id/checkNo"
+			android:text="@string/checkNo"/>
+
+	</LinearLayout>
+
+	<ListView
+		android:id="@+id/list"
+		style="@style/list"/>
+
+</LinearLayout>
+

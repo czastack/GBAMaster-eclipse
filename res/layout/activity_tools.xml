@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/full"
+	android:fillViewport="true">
+
+	<LinearLayout
+		style="@style/root">
+
+		<RadioGroup
+			android:id="@+id/typeSwitch"
+			style="@style/RadioSwitch">
+
+			<RadioButton
+				style="@style/switch_radio"
+				android:text="@string/chtConverter"
+				android:id="@+id/chtConverter"/>
+
+			<RadioButton
+				style="@style/switch_radio"
+				android:text="@string/sort"
+				android:id="@+id/sort"/>
+
+			<RadioButton
+				style="@style/switch_radio"
+				android:text="Xml"
+				android:id="@+id/Xml"/>
+
+			<RadioButton
+				style="@style/switch_radio"
+				android:text="@string/regex"
+				android:id="@+id/regex"/>
+
+		</RadioGroup>
+
+		<LinearLayout
+			style="@style/verticalBar"
+			android:id="@+id/extBar"/>
+
+		<include
+			layout="@layout/ioet"/>
+
+	</LinearLayout>
+
+</ScrollView>
+

@@ -1,0 +1,7 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/full">
+    <com.androidemu.EmulatorView 
+		style="@style/full"
+		android:id="@+id/emulatorView"
+		android:focusableInTouchMode="true" />
+</RelativeLayout>

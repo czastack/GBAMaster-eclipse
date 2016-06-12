@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/typeSwitch"
+	style="@style/RadioSwitch">
+
+	<RadioButton
+		style="@style/switch_radio"
+		android:text="@string/showText"
+		android:id="@+id/showText"
+		android:checked="true"/>
+
+	<RadioButton
+		style="@style/switch_radio"
+		android:text="@string/saveFile"
+		android:id="@+id/saveFile"/>
+
+</RadioGroup>

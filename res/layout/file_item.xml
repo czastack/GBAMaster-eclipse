@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/bar"
+	android:padding="5dp">
+
+	<ImageView
+		android:id="@+id/file_icon"
+		android:layout_width="40dp"
+		android:layout_height="40dp"
+		android:scaleType="fitCenter"/>
+
+	<TextView
+		android:id="@+id/file_name"
+		style="@style/line_item"
+		android:textSize="18sp"
+		android:paddingLeft="5dp"
+		android:paddingRight="5dp"/>
+
+	<TextView
+		android:id="@+id/file_size"
+		style="@style/wrap"
+		android:textColor="@color/gray"
+		android:layout_gravity="bottom"/>
+
+</LinearLayout>
+

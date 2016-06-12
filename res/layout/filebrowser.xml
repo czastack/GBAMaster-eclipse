@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<RelativeLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		style="@style/focusable">
+
+		<LinearLayout
+			android:id="@+id/addrBar"
+			style="@style/bar">
+
+			<CheckBox
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:button="@drawable/file_browser_bookmark"
+				android:id="@+id/filebrowser_bookmark"/>
+
+			<cza.widget.SpinnerEditText
+				android:id="@+id/filebrowser_path"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_weight="1.0"
+				android:singleLine="true"
+				android:imeOptions="actionDone"/>
+
+			<ImageButton
+				android:layout_width="wrap_content"
+				android:layout_height="fill_parent"
+				android:src="@drawable/ic_btn_up_dir"
+				android:id="@+id/filebrowser_upbtn"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/mulChkBar"
+			style="@style/bar"
+			android:visibility="invisible">
+
+			<TextView
+				style="@style/state"
+				android:id="@+id/mulChkState"/>
+
+			<TextView
+				style="?android:attr/buttonBarButtonStyle"
+				android:id="@+id/checkAll"
+				android:text="@string/checkAll"/>
+
+			<TextView
+				style="?android:attr/buttonBarButtonStyle"
+				android:text="@string/checkInverse"
+				android:id="@+id/btn_checkInverse"/>
+
+			<TextView
+				style="?android:attr/buttonBarButtonStyle"
+				android:text="@string/quite"
+				android:id="@+id/btn_quite"/>
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+	<ListView
+		android:id="@+id/list"
+		style="@style/list"
+		android:layout_weight="1.0"/>
+
+	<LinearLayout
+		style="@style/bar"
+		android:id="@+id/moveBar"
+		android:visibility="gone">
+
+		<TextView
+			style="@style/state"
+			android:id="@+id/moveState"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="@string/cancel"
+			android:layout_width="wrap_content"
+			android:id="@+id/cancel"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="@string/ok"
+			android:layout_width="wrap_content"
+			android:id="@+id/ok"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		style="@style/bar"
+		android:id="@+id/saveAsBar"
+		android:visibility="gone">
+
+		<EditText
+			style="@style/state"
+			android:id="@+id/saveAsName"
+			android:gravity="left"/>
+
+		<Button
+			android:layout_height="wrap_content"
+			android:text="@string/ok"
+			android:layout_width="wrap_content"
+			android:id="@+id/saveAsOk"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		style="@style/verticalBar"
+		android:id="@+id/footerBar"/>
+</LinearLayout>
+

@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item
+        android:id="@+id/menu_save"
+        android:title="@string/save"/>
+	
+    <item
+        android:id="@+id/menu_saveAs"
+        android:title="@string/saveAs"/>
+
+    <item
+        android:title="@string/newCheat"
+        android:showAsAction="ifRoom"
+		android:icon="@android:drawable/ic_menu_add">
+
+		<menu>
+			<item
+				android:id="@+id/menu_inputcode"
+				android:title="@string/inputCode"/>
+
+			<item
+				android:id="@+id/menu_opencot"
+				android:title="@string/opencot"/>
+
+			<item
+				android:id="@+id/menu_unbindcot"
+				android:title="@string/unbindcot"/>
+
+			<item
+				android:id="@+id/menu_cot_long_connect"
+				android:title="@string/cot_long_connect"
+				android:checkable="true"/>
+		</menu>
+	</item>
+
+    <item
+        android:id="@+id/menu_edit"
+        android:title="@string/edit"
+		android:showAsAction="ifRoom"
+		android:icon="@android:drawable/ic_menu_edit"/>
+
+    <item
+        android:id="@+id/menu_clear"
+        android:title="@string/clear"/>
+    
+</menu>

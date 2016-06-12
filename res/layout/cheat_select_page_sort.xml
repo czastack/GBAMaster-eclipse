@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/root">
+
+	<LinearLayout
+		style="@style/bar">
+
+		<Button
+			style="@style/line_item"
+			android:id="@+id/btn_reset"
+			android:text="@string/reset"/>
+
+		<Button
+			style="@style/line_item"
+			android:id="@+id/btn_inverse"
+			android:text="@string/inverse"/>
+
+	</LinearLayout>
+
+	<cza.widget.DragGridView
+		style="@style/fill"
+		android:id="@+id/gridView"
+		android:verticalSpacing="5dp"
+		android:horizontalSpacing="5dp"/>
+
+</LinearLayout>
+

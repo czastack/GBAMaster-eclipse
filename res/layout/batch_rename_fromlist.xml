@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/root">
+
+	<EditText
+		style="@style/fill"
+		android:id="@+id/input_list"
+		android:minLines="6"/>
+
+	<CheckBox
+		style="@style/fill"
+		android:text="@string/resetAfter"
+		android:id="@+id/resetAfter"/>
+
+	<include
+		layout="@layout/batch_rename_frame"/>
+
+</LinearLayout>
+

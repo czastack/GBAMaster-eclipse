@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<LinearLayout
+		style="@style/input">
+
+		<TextView
+			style="@style/input_text"
+			android:text="@string/startNum"/>
+
+		<EditText
+			style="@style/input_edit"
+			android:id="@+id/input_startVal"
+			android:inputType="numberDecimal"
+			android:text="1"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		style="@style/input">
+
+		<TextView
+			style="@style/input_text"
+			android:text="@string/minLength"/>
+
+		<EditText
+			style="@style/input_edit"
+			android:id="@+id/input_minLength"
+			android:inputType="numberDecimal"
+			android:text="3"/>
+
+	</LinearLayout>
+
+	<CheckBox
+		style="@style/fill"
+		android:text="@string/resetAfter"
+		android:id="@+id/resetAfter"/>
+
+	<include
+		layout="@layout/batch_rename_frame"/>
+
+</merge>
+

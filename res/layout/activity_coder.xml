@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/full"
+	android:fillViewport="true">
+
+	<LinearLayout
+		style="@style/root">
+
+		<LinearLayout
+			style="@style/input">
+
+			<TextView
+				style="@style/input_text"
+				android:text="@string/codeType"/>
+
+			<Spinner
+				style="@style/fill"
+				android:id="@+id/codeTypeView"
+				android:entries="@array/codeType"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			style="@style/input">
+
+			<TextView
+				style="@style/input_text"
+				android:text="@string/codeFunction"/>
+
+			<Spinner
+				style="@style/fill"
+				android:id="@+id/codeFunctionView"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			style="@style/input">
+
+			<TextView
+				style="@style/input_text"
+				android:text="@string/address"/>
+
+			<EditText
+				style="@style/input_edit"
+				android:id="@+id/addressView"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			style="@style/input">
+
+			<TextView
+				style="@style/input_text"
+				android:text="@string/value"/>
+
+			<EditText
+				style="@style/input_edit"
+				android:id="@+id/valueView"/>
+
+		</LinearLayout>
+
+		<RadioGroup
+			style="@style/input"
+			android:id="@+id/valueTypeView">
+
+			<TextView
+				style="@style/input_text"
+				android:text="@string/valueType"/>
+
+			<RadioButton
+				style="@style/input_edit"
+				android:id="@+id/option_value_h_l"
+				android:text="@string/value_h_l"
+				android:checked="true"/>
+
+			<RadioButton
+				style="@style/input_edit"
+				android:id="@+id/option_value_l_h"
+				android:text="@string/value_l_h"/>
+
+		</RadioGroup>
+
+		<RadioGroup
+			style="@style/input"
+			android:id="@+id/modeView">
+
+			<TextView
+				style="@style/input_text"
+				android:text="@string/mode"/>
+
+			<RadioButton
+				style="@style/input_edit"
+				android:id="@+id/option_ordinary"
+				android:text="@string/ordinary"
+				android:checked="true"/>
+
+			<RadioButton
+				style="@style/input_edit"
+				android:id="@+id/option_longValue"
+				android:text="@string/longValue"/>
+
+			<RadioButton
+				style="@style/input_edit"
+				android:id="@+id/option_batch"
+				android:text="@string/batch"/>
+
+		</RadioGroup>
+
+		<LinearLayout
+			style="@style/bar"
+			android:id="@+id/slideBar">
+
+			<EditText
+				style="@style/input_edit"
+				android:id="@+id/dataSizeView"
+				android:hint="@string/dataSize"/>
+
+			<EditText
+				style="@style/input_edit"
+				android:id="@+id/ValueIncrementView"
+				android:hint="@string/valueInc"/>
+
+			<EditText
+				style="@style/input_edit"
+				android:id="@+id/AddrIncrementView"
+				android:hint="@string/addrInc"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			style="@style/bar">
+
+			<Button
+				style="@style/line_item_center"
+				android:text="@string/create"
+				android:id="@+id/btn_create"/>
+
+			<Button
+				style="@style/line_item_center"
+				android:text="@string/decode"
+				android:id="@+id/btn_decode"/>
+
+		</LinearLayout>
+
+		<EditText
+			style="@style/multiLine"
+			android:id="@+id/oet"
+			android:hint="@string/output"
+			android:minLines="8"/>
+
+	</LinearLayout>
+
+</ScrollView>
+

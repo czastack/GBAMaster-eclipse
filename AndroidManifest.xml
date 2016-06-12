@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cza.gbamaster"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+	<uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+	<uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+		android:theme="@style/day"
+		android:name="cza.gbamaster.MyApplication"
+		android:allowBackup="true">
+
+        <activity
+            android:label="@string/app_name"
+			android:name="cza.gbamaster.MainActivity">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+		<activity
+			android:label="@string/launcher"
+			android:name="cza.gbamaster.LauncherActivity">
+			<intent-filter>
+                <action android:name="android.intent.action.CHOOSER" />
+            </intent-filter>
+        </activity>
+
+		<activity
+			android:label="@string/emulatorActivity"
+			android:name="cza.gbamaster.EmulatorActivity"
+			android:launchMode="singleTop"
+			android:configChanges="orientation|keyboardHidden|screenSize">
+			<intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:mimeType="application/x-gba-rom" />
+            </intent-filter>
+        </activity>
+
+		<activity
+			android:label="@string/cheatActivity"
+			android:name="cza.gbamaster.CheatActivity"
+			android:theme="@style/night"
+			android:configChanges="orientation|keyboardHidden|screenSize">
+			<intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:mimeType="text/cht" />
+            </intent-filter>
+        </activity>
+
+		<activity
+			android:label="@string/cot"
+			android:name="cza.gbamaster.CotActivity"
+			android:configChanges="orientation|keyboardHidden|screenSize">
+			<intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:mimeType="application/cot" />
+            </intent-filter>
+        </activity>
+
+		<activity
+			android:label="@string/tools"
+			android:name="cza.gbamaster.ToolsActivity"
+			android:launchMode="singleTop">
+			<intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+
+		<activity
+			android:label="@string/packageCot"
+			android:name="cza.gbamaster.PackCotActivity"/>
+		
+		<activity
+			android:label="@string/setting"
+			android:name="cza.gbamaster.MainPreferenceActivity"/>
+
+		<activity
+			android:label="@string/filebrowser"
+			android:name="cza.gbamaster.FileActivity"
+			android:launchMode="singleTop"
+			android:configChanges="orientation|keyboardHidden|screenSize"
+			android:theme="@style/night">
+			<intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+
+        <activity 
+			android:name="cza.gbamaster.PlayActivity" 
+			android:theme="@style/emulatorTheme"
+			android:configChanges="orientation|keyboardHidden|screenSize">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+			</intent-filter>
+		</activity>
+		
+        <activity 
+			android:label="@string/calculator"
+			android:name="cza.gbamaster.CalculatorActivity"/>
+
+		<activity
+			android:label="@string/gbaCompress"
+			android:name="cza.gbamaster.GBACompressActivity"/>
+
+		<activity
+			android:label="@string/codeBuilder"
+			android:name="cza.gbamaster.CoderActivity"
+			android:launchMode="singleTop">
+			<intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

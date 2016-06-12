@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">	
+    <item 
+		android:id="@+id/menu_submit" 
+		android:title="@string/finished" 
+		android:icon="@android:drawable/ic_menu_send"
+		android:showAsAction="ifRoom" />
+
+    <item 
+		android:id="@+id/menu_output" 
+		android:title="@string/output" 
+		android:icon="@android:drawable/ic_menu_view"
+		android:showAsAction="ifRoom" />
+    <item 
+		android:id="@+id/menu_load" 
+		android:title="@string/loadForm" />
+
+    <item 
+		android:id="@+id/menu_save" 
+		android:title="@string/saveForm" />
+	
+    <item 
+		android:id="@+id/menu_clear" 
+		android:title="@string/resetForm" />
+
+    <item 
+		android:id="@+id/menu_shortcut" 
+		android:title="@string/shortcut" />
+</menu>

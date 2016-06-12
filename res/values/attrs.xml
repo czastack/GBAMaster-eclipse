@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<attr name="inputStyle" format="reference" />
+	<attr name="clickableBar" format="reference" />
+	<attr name="pressed" format="reference" />
+	<attr name="switch_radio_bg" format="reference" />
+	<attr name="radio_switch_bg" format="color" />
+	<attr name="imgStyle" format="reference" />
+	<attr name="shape_bg" format="reference" />
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/root">
+
+	<LinearLayout
+		style="@style/input">
+
+		<Spinner
+			android:entries="@array/fix"
+			style="@style/input_text"
+			android:id="@+id/fixSwitch"/>
+
+		<EditText
+			style="@style/input_edit"
+			android:id="@+id/input_fix"
+			android:hint="@string/choosable"/>
+
+	</LinearLayout>
+	
+	<include
+		layout="@layout/batch_rename_num_frame"/>
+
+</LinearLayout>
+

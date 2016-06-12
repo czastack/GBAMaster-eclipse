@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item 
+		android:id="@+id/menu_add" 
+		android:title="@string/addGame" 
+		android:icon="@android:drawable/ic_menu_add"
+		android:showAsAction="ifRoom" >
+		
+		<menu>
+			<item
+				android:id="@+id/menu_autoSearch"
+				android:title="@string/autoSearch"/>
+			
+			<item
+				android:id="@+id/menu_manualAdd"
+				android:title="@string/manualAdd"/>
+		</menu>
+	</item>
+	
+	<item 
+		android:id="@+id/menu_setting" 
+		android:title="@string/setting"  />
+
+	<item 
+		android:id="@+id/menu_close" 
+		android:title="@string/quite" />
+</menu>

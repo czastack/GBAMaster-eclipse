@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:title="设置">
+	
+	<CheckBoxPreference
+		android:key="night_theme"
+		android:title="夜间模式"
+		android:summary="在大多数界面使用暗主题"
+		android:defaultValue="false"/>
+
+	<CheckBoxPreference
+		android:key="show_logo"
+		android:title="模板界面显示Logo"
+		android:summary="Logo标明了对应的游戏版本"
+		android:defaultValue="true"/>
+
+	<Preference
+		android:title="内置模拟器设置"
+		android:key="emu">
+
+	</Preference>
+
+</PreferenceScreen>
+

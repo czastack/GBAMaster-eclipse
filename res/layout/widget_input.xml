@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<TextView
+		style="@style/input_text"
+		android:text="@string/nameType"
+		android:id="@+id/input_text"/>
+
+	<EditText
+		style="@style/input_edit"
+		android:id="@+id/input_edit"/>
+
+</merge>
+

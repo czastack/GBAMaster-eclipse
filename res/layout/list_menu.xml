@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/bar"
+	android:padding="10dp">
+
+	<ImageView
+		style="@style/wrap"
+		android:layout_marginRight="10dp"
+		android:id="@+id/iconView"/>
+
+	<TextView
+		style="@style/fill"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:id="@+id/title"/>
+
+</LinearLayout>
+

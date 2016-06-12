@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<View
+		style="@style/hr"/>
+
+	<RadioButton
+		style="@style/fill"
+		android:textSize="16sp"
+		android:padding="5dp"/>
+
+</merge>
+

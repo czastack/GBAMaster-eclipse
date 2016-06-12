@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item 
+		android:id="@+id/menu_mainActivity" 
+		android:title="@string/mainActivity" />
+	
+	<item 
+		android:id="@+id/menu_tools" 
+		android:title="@string/tools" />
+	<item 
+		android:id="@+id/menu_calculator" 
+		android:title="@string/calculator" />
+	<item 
+		android:id="@+id/menu_filebrowser" 
+		android:title="@string/filebrowser" />
+
+	<item 
+		android:id="@+id/menu_package" 
+		android:title="@string/packageCot" />
+
+	<item 
+		android:id="@+id/menu_gbaCompress" 
+		android:title="@string/gbaCompress" />
+
+	<item 
+		android:id="@+id/menu_codeBuilder" 
+		android:title="@string/codeBuilder" />
+
+	<item 
+		android:id="@+id/menu_emulatorActivity" 
+		android:title="@string/emulatorActivity" />
+
+	<item 
+		android:id="@+id/menu_playActivity" 
+		android:title="@string/playActivity" />
+
+	<item 
+		android:id="@+id/menu_cheatActivity" 
+		android:title="@string/cheatActivity" />
+
+	<item 
+		android:id="@+id/menu_setting" 
+		android:title="@string/setting" />
+</menu>

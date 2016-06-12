@@ -1,0 +1,62 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item 
+		android:id="@+id/menu_quickLoad" 
+		android:title="@string/quickLoad" 
+		android:showAsAction="ifRoom"
+		android:icon="@android:drawable/ic_menu_revert" />
+	<item 
+		android:id="@+id/menu_quickSave" 
+		android:title="@string/quickSave" 
+		android:showAsAction="ifRoom"
+		android:icon="@android:drawable/ic_menu_save" />
+	<item 
+		android:id="@+id/menu_load" 
+		android:title="@string/loadState"
+		android:icon="@android:drawable/ic_menu_revert" />
+	<item 
+		android:id="@+id/menu_save" 
+		android:title="@string/saveState" 
+		android:icon="@android:drawable/ic_menu_save" />
+	<item 
+		android:id="@+id/menu_setting" 
+		android:title="@string/setting" 
+		android:icon="@android:drawable/ic_menu_preferences" />
+	<item 
+		android:id="@+id/menu_speed" 
+		android:title="@string/fast" 
+		android:icon="@android:drawable/ic_media_ff" />
+	<item 
+		android:id="@+id/menu_cheat"
+		android:title="@string/cheat"
+		android:showAsAction="ifRoom"
+		android:icon="@android:drawable/ic_menu_edit"/>
+	<item 
+		android:id="@+id/menu_reset" 
+		android:title="@string/restar" 
+		android:icon="@android:drawable/ic_menu_rotate" />
+	<item 
+		android:id="@+id/menu_screenshot" 
+		android:title="@string/screnshot" 
+		android:icon="@android:drawable/ic_menu_camera" />
+	<item 
+		android:title="@string/widget" 
+		android:icon="@android:drawable/ic_menu_view" >
+	    <menu>
+			<item
+				android:id="@+id/menu_cheatTest"
+				android:title="@string/cheatTest"/>
+
+			<item
+				android:id="@+id/menu_memoryTest"
+				android:title="@string/memoryTest"/>
+
+			<item
+				android:id="@+id/menu_keyTrigger"
+				android:title="@string/keyTrigger"/>
+		</menu>
+	</item>
+	<item 
+		android:id="@+id/menu_close" 
+		android:title="@string/close" 
+		android:icon="@android:drawable/ic_lock_power_off" />
+</menu>

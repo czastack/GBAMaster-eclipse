@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/root"
+	android:focusable="true"
+	android:focusableInTouchMode="true">
+
+	<LinearLayout
+		style="@style/vertical_item"
+		android:orientation="vertical">
+
+		<EditText
+			style="@style/multiLine"
+			android:id="@+id/iet"
+			android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+	</LinearLayout>
+
+	<RadioGroup
+		android:id="@+id/baseSwitch"
+		style="@style/RadioSwitch">
+
+		<RadioButton
+			style="@style/switch_radio"
+			android:text="@string/hex"
+			android:id="@+id/option_hex"/>
+
+		<RadioButton
+			style="@style/switch_radio"
+			android:text="@string/dec"
+			android:id="@+id/option_dec"/>
+
+	</RadioGroup>
+
+	<LinearLayout
+		style="@style/verticalBar"
+		android:id="@+id/buttonGroup"/>
+
+</LinearLayout>
+

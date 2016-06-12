@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">GBA管理员</string>
+    <!--Activity-->
+    <string name="createShortcut">创建快捷方式</string>
+    <string name="shortcut">快捷方式</string>
+    <string name="refresh">刷新</string>
+    <string name="tool">工具</string>
+    <string name="fileNotFound">文件不存在</string>
+    <string name="fileNotFoundBelow">无法找到\n%s</string>
+    <!--后台-->
+    <string name="running">创建快捷方式</string>
+    <!--启动器-->
+    <string name="launcher">启动器</string>
+    <string name="mainActivity">主界面</string>
+    <string name="tools">工具集</string>
+    <string name="calculator">计算器</string>
+    <string name="filebrowser">文件浏览</string>
+    <string name="packageCot">打包模板</string>
+    <string name="gbaCompress">压缩gba</string>
+    <string name="cot">模板</string>
+    <string name="emulatorActivity">游戏配置</string>
+    <string name="cheatActivity">编辑作弊码</string>
+    <string name="playActivity">运行中的游戏</string>
+    <string name="setting">设置</string>
+    <string name="notRunning">所选活动不在运行中</string>
+    <!--主界面-->
+    <string name="addGame">添加游戏</string>
+    <string name="autoSearch">自动搜索</string>
+    <string name="manualAdd">手动添加</string>
+    <string name="renameAllFiles">重命名关联文件</string>
+    <string name="removeFromList">从列表中移除</string>
+    <string name="changePosition">改变列表顺序</string>
+    <string name="searchGame">搜索游戏</string>
+    <string name="keepOrder">保留原来的顺序</string>
+    <string name="searchLevel">递归搜索的目录层数</string>
+    <string name="searching">正在搜索</string>
+    <string name="searchFinish">搜索完成</string>
+    <string name="searchCount">成功捕捉到了%d个野生的游戏！</string>
+    <string name="home">开头</string>
+    <string name="end">结尾</string>
+    <string name="previous">上一个</string>
+    <string name="next">下一个</string>
+    <!--文件-->
+    <string name="copy">复制</string>
+    <string name="move">移动</string>
+    <string name="paste">粘贴</string>
+    <string name="clear">清空</string>
+    <string name="delete">删除</string>
+    <string name="rename">重命名</string>
+    <string name="copyDir">复制路径</string>
+    <string name="edit">编辑</string>
+    <string name="share">分享</string>
+    <string name="createFile">新文件</string>
+    <string name="openDir">打开文件夹</string>
+    <string name="openPath">打开文件位置</string>
+    <string name="fileName">文件名</string>
+    <string name="copySucceed">已复制到剪切板</string>
+    <string name="chooseTypeFile">选择%s文件</string>
+    <string name="emptyFilename">请输入文件名</string>
+    <string name="fileExists">文件已存在</string>
+    <string name="saveSucceed">保存成功\n%s</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="isee">我知道了</string>
+    <!--批量重命名-->
+    <string name="preview">预览</string>
+    <string name="finished">完成</string>
+    <string name="numPosition">数字位置</string>
+    <string name="minLength">最少数位</string>
+    <string name="changeType">改拓展名</string>
+    <string name="useDefault">默认不变</string>
+    <string name="R">递归</string>
+    <string name="startNum">起始数字</string>
+    <string name="resetAfter">切换目录后重置起始值</string>
+    <string name="aboutR">考虑到安全问题，只处理当前目录以及第一层子目录下的文件</string>
+    <string formatted="false" name="Num">
+		"参考：\n"
+		"%d 数字\n"
+		"%f 目录名\n"
+		"%n 文件名（不含拓展名）\n"
+		"%e 拓展名（不含点号）\n"
+		"%E 拓展名（包含点号）\n"
+		"%% 百分号（%）"
+	</string>
+    <string name="nameType">名称格式</string>
+    <string name="choosable">可选</string>
+    <string name="prefix">前缀</string>
+    <string name="suffix">后缀</string>
+    <string name="screen">筛选</string>
+    <string name="find">查找</string>
+    <string name="replace">替换</string>
+    <string name="defaultDel">默认为删除</string>
+    <!--文本工具-->
+    <string name="sort">排序</string>
+    <string name="chtConverter">cht转换</string>
+    <string name="regex">正则</string>
+    <string name="regexError">正则错误</string>
+    <!--cht转换-->
+    <string name="addrOffset">地址偏移</string>
+    <string name="valueOffset">数值偏移</string>
+    <!--正则-->
+    <string name="splitGroup">用换行分组</string>
+    <string name="input">输入</string>
+    <string name="output">输出</string>
+    <string name="code">代码</string>
+    <string name="name">名称</string>
+    <string name="all">全部</string>
+    <string name="folder">文件夹</string>
+    <string name="file">文件</string>
+    <string name="path">路径</string>
+    <string name="separator">分隔</string>
+    <string name="size">大小</string>
+    <!--多选-->
+    <string name="checkAll">全选</string>
+    <string name="checkInverse">反选</string>
+    <string name="checkNo">全不选</string>
+    <string name="quite">退出</string>
+    <string name="checked">开启 %1$d/%2$d</string>
+    <string name="selected">选中 %1$d/%2$d</string>
+    <!--Tool_cheat-->
+    <string name="error">我读的书少，你不要骗我</string>
+    <string name="input_cheat">请输入作弊码</string>
+    <!--管理界面-->
+    <string name="gameboid">GameBoid</string>
+    <string name="myboy">MyBoy</string>
+    <string name="cht">CHT</string>
+    <string name="chooseFile">选择文件</string>
+    <string name="runGame">运行游戏</string>
+    <string name="testGame">调试游戏</string>
+    <string name="setSav">配置电池存档</string>
+    <string name="setST">配置即时存档</string>
+    <string name="backupSav">备份所有存档</string>
+    <string name="importCht">导入作弊文件</string>
+    <string name="relativeFilesEdit">相关文件编辑</string>
+    <string name="noSS0">无快捷存档</string>
+    <string name="noST">无即时存档</string>
+    <string name="uninstalled">您的设备没有安装%s</string>
+    <string name="backup">备份</string>
+    <!--导入作弊文件-->
+    <string name="importFrom">从%s导入</string>
+    <!--排序即时存档-->
+    <string name="top">顶部</string>
+    <string name="bottom">底部</string>
+    <string name="a_z">升序</string>
+    <string name="z_a">降序</string>
+    <!--rom 信息-->
+    <string name="romInfo">rom 信息</string>
+    <string name="maker">厂商</string>
+    <!--CHT-->
+    <string name="chtFile">作弊文件</string>
+    <string name="createCht">新建作弊文件</string>
+    <string name="option">选项</string>
+    <!--模板-->
+    <string name="noCot">未选择模板</string>
+    <!--作弊码-->
+    <string name="save">保存</string>
+    <string name="saveAs">另存为</string>
+    <string name="newCheat">新作弊</string>
+    <string name="cheatCode">作弊码</string>
+    <string name="inputCode">输入代码</string>
+    <string name="opencot">打开模板</string>
+    <string name="unbindcot">解绑模板</string>
+    <string name="cot_long_connect">模版长会话</string>
+    <string name="showText">显示文本</string>
+    <string name="saveFile">保存文件</string>
+    <string name="deleteConfirm">您确认要删除这%d条作弊码么？</string>
+    <string name="unsupportedInSearch">搜索模式下不支持该操作</string>
+    <!--运行游戏-->
+    <string name="saveST">保存存档</string>
+    <string name="loadST">加载存档</string>
+    <string name="normal">正常</string>
+    <string name="fast">变速</string>
+    <string name="biosError">加载bios失败</string>
+    <string name="newGame">切换游戏</string>
+    <string name="newGameConfirm">您确定要切换游戏么？</string>
+    <string name="saveFirst">先保存</string>
+    <string name="quickLoad">快速加载</string>
+    <string name="quickSave">快速保存</string>
+    <string name="loadState">加载</string>
+    <string name="saveState">保存</string>
+    <string name="cheat">作弊</string>
+    <string name="screnshot">截图</string>
+    <string name="widget">控件</string>
+    <string name="restar">重启</string>
+    <!--控件-->
+    <string name="cheatTest">作弊码测试</string>
+    <string name="memoryTest">内存测试</string>
+    <string name="keyTrigger">按键触发</string>
+    <!--测试-->
+    <string name="onlyCB">此功能只支持CB代码</string>
+    <string name="data_size">数据长度</string>
+    <string name="u8">8位</string>
+    <string name="u16">16位</string>
+    <string name="u32">32位</string>
+    <string name="input_addr">请输入地址</string>
+    <string name="input_value">请输入数值</string>
+    <string name="read">读取</string>
+    <string name="write">写入</string>
+    <string name="autoRestore">自动恢复</string>
+    <!--按键触发-->
+    <string name="config">配置</string>
+    <string name="remove">移除</string>
+    <string name="text">文本</string>
+    <string name="delay">延迟</string>
+    <string name="deleteEvent">删除事件</string>
+    <string name="addDelay">添加延迟</string>
+    <string name="addKey">添加按键</string>
+    <string name="ms">毫秒</string>
+    <string name="delayText">延迟%d毫秒</string>
+    <!--模板-->
+    <string name="chooseCot">选择模板文件</string>
+    <string name="noCotDir">模板目录不存在！</string>
+    <string name="cotHint">请确保您所使用的游戏版本与本模板一致，否则生成的作弊码可能不能起效。</string>
+    <string name="close">关闭</string>
+    <string name="select">选取</string>
+    <string name="reset">重置</string>
+    <string name="inverse">逆序</string>
+    <string name="maxis">最大值：%s</string>
+    <string name="autoMax">一键最大</string>
+    <string name="loadForm">加载表单</string>
+    <string name="saveForm">保存表单</string>
+    <string name="resetForm">重置表单</string>
+    <string name="noForm">没有已保存的表单</string>
+    <!--计算器-->
+    <string name="hex">16进制</string>
+    <string name="dec">10进制</string>
+    <!--gba压缩-->
+    <string name="browser">浏览</string>
+    <string name="compress">压缩</string>
+    <string name="ready">准备完毕</string>
+    <string name="progress">%1$d/%2$s</string>
+    <string name="compress_complete">压缩完成，共节省%1$s，\n如压缩后可以运行，请手动删除\n%2$s\n内的备份的gba文件</string>
+    <string name="browserResult">浏览结果</string>
+    <string name="nofile">没有选择文件</string>
+    <!--金手指生成-->
+    <string name="codeBuilder">金手指生成器</string>
+    <string name="codeType">种类</string>
+    <string name="codeFunction">功能</string>
+    <string name="address">地址</string>
+    <string name="value">数值</string>
+    <string name="valueType">格式</string>
+    <string name="value_h_l">高位→低位</string>
+    <string name="value_l_h">低位→高位</string>
+    <string name="mode">模式</string>
+    <string name="ordinary">普通</string>
+    <string name="longValue">长值</string>
+    <string name="batch">批量</string>
+    <string name="create">创建</string>
+    <string name="decode">解码</string>
+    <string name="valueSize">大小</string>
+    <string name="params">参数</string>
+    <string name="dataSize">循环次数</string>
+    <string name="valueInc">数值增量</string>
+    <string name="addrInc">地址增量</string>
+    <!--代码种类-->
+    <string name="gameshark_v1">Gameshark V1/V2</string>
+    <string name="ar_v3">Action Replay V3</string>
+    <string name="codebreaker">Codebreaker</string>
+    <!--Codebreaker function-->
+    <string name="cb_or">或运算</string>
+    <string name="cb_and">与运算</string>
+    <string name="cb_lt">判断小于</string>
+    <string name="cb_gt">判断大于</string>
+    <string name="cb_if_key">判断按键</string>
+    <string name="cb_add">递增</string>
+    <!--v1/v2 function-->
+    <string name="ram_write_8bit">随机区8位写入</string>
+    <string name="ram_write_16bit">随机区16位写入</string>
+    <string name="ram_write_32bit">随机区32位写入</string>
+    <string name="rom_patch">rom 16位补丁</string>
+    <string name="gs_write_8bit">GS 8位写入</string>
+    <string name="gs_write_16bit">GS 16位写入</string>
+    <string name="gs_write_32bit">GS 32位写入</string>
+    <string name="if_true_16bit">条件16位等于</string>
+    <!--v3 function-->
+    <string name="v3_fill_8bit">随机区8位填充</string>
+    <string name="v3_fill_16bit">随机区16位填充</string>
+    <string name="if_true_8bit">条件8位等于</string>
+    <string name="if_true_32bit">条件32位等于</string>
+    <string name="if_false_8bit">条件8位不等</string>
+    <string name="if_false_16bit">条件16位不等</string>
+    <string name="if_false_32bit">条件32位不等</string>
+    <string name="if_true2_8bit">条件8位等于(双行)</string>
+    <string name="if_true2_16bit">条件16位等于(双行)</string>
+    <string name="if_true2_32bit">条件32位等于(双行)</string>
+    <string name="if_false2_8bit">条件8位不等(双行)</string>
+    <string name="if_false2_16bit">条件16位不等(双行)</string>
+    <string name="if_false2_32bit">条件32位不等(双行)</string>
+    <string name="slide_8bit">压缩码8位</string>
+    <string name="slide_16bit">压缩码16位</string>
+    <string name="slide_32bit">压缩码32位</string>
+</resources>
