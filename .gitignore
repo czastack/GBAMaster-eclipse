@@ -1,5 +1,5 @@
-.settings/
-资料/
-资料/*.*
-bin/
-proguard/
+GBAMaster/.settings/
+GBAMaster/资料/
+GBAMaster/资料/*.*
+GBAMaster/bin/
+GBAMaster/proguard/
